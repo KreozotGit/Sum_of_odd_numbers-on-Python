@@ -7,4 +7,4 @@ def symma_nechetnih(m_number):
     return s
 
 data = int(input('Пожалуйста, введите верхнюю границу количества чисел в списке: '))
-print(f'Сумма всех отрицательных чисел в заданном диапазоне: {symma_nechetnih(data)}')
+print(f'Сумма всех нечётных чисел в заданном диапазоне: {symma_nechetnih(data)}')
